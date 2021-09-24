@@ -1,0 +1,321 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper{
+	width: 100%;
+	height:4600px;
+	background: rgb(0,52,30);
+	background: linear-gradient(0deg, rgba(0,52,30,1) 89%, rgba(204,24,29,1) 100%);
+}
+.wrapper-1{
+	width: 100%;
+	height:4600px;
+	background: url(../img/video/5WWU.gif);
+	background-size:800px;
+}
+.header{
+	height: 88px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+.music audio{
+	margin:right;
+	height:63px;
+}
+.banner{
+	display: flex;
+	justify-content: space-between;
+	height:550px;
+/*	background: url(../img/video/5WWU.gif);*/
+	background-size: auto;
+}
+.para{
+	margin: 110px 50px 0 0;
+	width:500px;
+	float:right;
+}
+.para h1{
+	text-shadow: 0px 0px 10px #ffffff;
+}
+.image{
+	width:700px;
+}
+.image img{
+	margin-top:50px;
+	width:100%;
+	border-radius: 0 40% 40% 0;
+	white-space: pre;
+	
+}.image img:hover{
+	opacity: 0.8;
+	box-shadow: 0px 0px 50px #ffffff;
+}
+.main{
+	margin:0 auto;
+}
+.gap{
+	width:100%;
+	height:75px;
+	background:url(../img/video/4zAY.gif);
+	background-size: auto;
+}
+.gap1{
+	width: 100%;
+	height:900px;
+	background: rgb(204,24,29);
+    background: linear-gradient(0deg, rgba(204,24,29,0) 0%, rgba(204,24,29,1) 100%);
+	display:flex;
+	margin:0 auto;
+}
+.paraleft{
+	width:32%;
+	height:600px;
+/*	background:black;*/
+	margin-top:150px;
+	margin-right:10px;
+	margin-left:15px;
+}
+.paraleft h1{
+	padding:50px 50px 20px 50px;
+	text-shadow: 0 0 70px #ffffff;
+}
+.paraleft p{
+	padding:10px 50px 0 50px;
+}
+.tree{
+	width:35%;
+	margin-top:80px;
+	height:700px;
+	background:url(../img/video/iHD.gif);
+	background-size:cover;
+	margin-right:10px;
+}
+.pararight{
+	width:32%;
+	height:600px;
+	margin-top:150px;
+	margin-right:10px;
+	margin-left:15px;
+}
+.pararight h1{
+	padding:50px 50px 20px 50px;
+	text-shadow: 0 0 70px #ffffff;
+}
+.pararight p{
+	padding:30px 50px 0 50px;
+}
+.galle{
+	margin-top:100px; 
+	background:url(../img/frame-anh-chu-de-noel_042654329.png);
+	background-size:contain; 
+	height:600px;
+	width:100%;
+}
+.khoi{
+	padding-top:40px;
+	display:flex;
+/*	background: black;*/
+	height: 700px;
+	width: 100%;
+}
+.h1{
+	margin:0 70px 0 30px;
+}
+.h1 img{
+	width:350px;
+	height:510px;
+	border-radius: 30%;
+	opacity:0.5
+}
+.h1 img:hover{
+	opacity:1;
+}
+.h2{
+	margin:0 70px 0 0;
+}
+.h2 img{
+	width:350px;
+	height:510px;
+	border-radius: 30%;
+	opacity:0.5
+}
+.h2 img:hover{
+	opacity:1;
+}
+.h3{
+	margin-right:70px;
+}
+.h3 img{
+	width:350px;
+	height:510px;
+	border-radius: 30%;
+	opacity:0.5
+}
+.h3 img:hover{
+	opacity:1;
+}
+.h4{
+	width: 70px;
+	height: 510px;
+}
+.h4 p{
+	writing-mode: vertical-lr;
+	text-align: center;
+	margin-top:87px;
+	margin-left:10px;
+	text-shadow: 0 0 10px #ffffff;
+}
+.absol{
+	margin-top:100px;
+	position:relative;
+}
+.absol:hover{
+	opacity: 0.9;
+}
+.logo{
+	height:250px;
+	width:250px;
+	background:red;
+	margin: 0 auto;
+	background:url(../img/video/U02R.gif);
+	background-size: cover;
+}
+.ab1 {
+	width:400px;
+	height:300px;
+	background:url(../img/video/IWIH.gif),#920000;
+	border: 8px solid #DD0003;
+	background-size:cover;
+	border-radius:50% 50% 0 0 ; 
+	margin:0 auto;
+}
+.ab2 {
+	width:400px;
+	height:300px;
+	background: url(../img/5-Quebec.jpg);border: 10px solid #DD0003;
+	background-size: cover;
+	border-radius:0 50% 0 0 ; 
+	position: absolute;
+	right:200px;
+	top:300px;
+}
+.ab3 {
+	width:400px;
+	height:300px;
+	background:url(../img/Giangsinh2018-5.jpg);border: 10px solid #DD0003;
+	background-size:cover;
+	border-radius:50% 0 0 0 ; 
+	position:absolute;
+	left:200px;
+	top:300px;
+}
+.ab4 {
+	width:400px;
+	height:300px;
+	background:url(../img/video/6ae6.gif);border: 10px solid #DD0003;
+	background-size:cover;
+/*	border-radius:50%; */
+	position: absolute;
+	margin:0 auto;
+	left:386px;
+	top:600px;
+}
+.ab5{
+	width:400px;
+	height:300px;
+	background:url(../img/noelHCM5-Di-Vy-5165-1575888307.jpg);border: 10px solid #DD0003;
+	background-size:cover;
+	border-radius:50% 0 0 0 ; 
+	position:absolute;
+	left:-14px;
+	top:600px;
+}
+.ab6 {
+	width:400px;
+	height:300px;
+	background:url(../img/hình-ảnh-đêm-giáng-sinh_0023_Layer-8.jpg);border: 10px solid #DD0003;
+	background-size:cover;
+	border-radius:0 50% 0 0; 
+	position: absolute;
+	margin:0 auto;
+	left:786px;
+	top:600px;
+}
+.tooltip {
+	width:100%;
+	margin:100px 0 0 0;
+/*	background: pink;*/
+	margin-top:800px;
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black; /* botder cho phía dưới văn bản */
+		}
+.tooltip p{
+/*	background:#AF0002;*/
+	text-align: center;
+	color:#FFC12A;
+	font-weight: bold;
+	font-size:30px;
+}
+.tooltip p:hover{
+	opacity: 0;
+}
+.tooltiptext{
+	font-size:45px;
+}
+.tooltip .tooltiptext {
+		  visibility: hidden;
+		  width: 580px;
+		  background:url(../img/video/4M57.gif),url();
+		  background-color:#FFC12A;
+		  color: #DD0003;
+		  text-align: center;
+		  padding: 5px 0;
+		  border-radius: 10px;
+		  position:absolute;
+		  z-index: 1;
+	      top: -300%;
+		  left: 30%;
+	      box-shadow: 0 0 1000px #ffffff;
+}
+.tooltip:hover .tooltiptext {
+		  visibility: visible;
+		}
+.form{
+	height: 600px;
+	width:100%;
+	background: url(../img/video/4XCO.gif);
+	background-size:1350px;
+	margin:200px 0 0 0px;
+}
+.form1 {
+	margin-top:500px;
+	width:60%;
+	height:300px;
+	margin:0 auto;	
+}
+.form1 h1{
+	padding-top:60px;
+	text-shadow: 0 0 5px #00341e;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	height:30px;
+	width:100%;
+	background: #AA0C11;
+}
+.icon img{
+	height:30px;
+}
+
+
